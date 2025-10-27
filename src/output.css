@@ -210,6 +210,9 @@
   .h-\[38px\] {
     height: 38px;
   }
+  .h-\[42px\] {
+    height: 42px;
+  }
   .h-\[44px\] {
     height: 44px;
   }
@@ -222,15 +225,30 @@
   .h-\[269px\] {
     height: 269px;
   }
+  .h-\[1000px\] {
+    height: 1000px;
+  }
   .w-\[12px\] {
     width: 12px;
   }
   .w-\[20px\] {
     width: 20px;
   }
+  .w-\[90\%\] {
+    width: 90%;
+  }
+  .w-\[100\] {
+    width: 100;
+  }
   .w-\[144px\] {
     width: 144px;
   }
+<<<<<<< HEAD
+=======
+  .w-\[162px\] {
+    width: 162px;
+  }
+>>>>>>> 2a88b48 (add)
   .w-\[196px\] {
     width: 196px;
   }
@@ -249,6 +267,9 @@
   .resize {
     resize: both;
   }
+  .flex-row {
+    flex-direction: row;
+  }
   .flex-wrap {
     flex-wrap: wrap;
   }
@@ -260,6 +281,9 @@
   }
   .gap-\[20px\] {
     gap: 20px;
+  }
+  .gap-\[30px\] {
+    gap: 30px;
   }
   .gap-\[34px\] {
     gap: 34px;
@@ -286,11 +310,23 @@
   .bg-\[\#3BB96D\] {
     background-color: #3BB96D;
   }
+  .bg-\[\#279A59\] {
+    background-color: #279A59;
+  }
   .bg-\[\#F1F5F8\] {
     background-color: #F1F5F8;
   }
   .pt-\[7px\] {
     padding-top: 7px;
+  }
+  .pt-\[8px\] {
+    padding-top: 8px;
+  }
+  .pt-\[12px\] {
+    padding-top: 12px;
+  }
+  .pt-\[15px\] {
+    padding-top: 15px;
   }
   .pt-\[20px\] {
     padding-top: 20px;
@@ -307,9 +343,21 @@
   .pt-\[40px\] {
     padding-top: 40px;
   }
+  .pt-\[50px\] {
+    padding-top: 50px;
+  }
   .pt-\[80px\] {
     padding-top: 80px;
   }
+<<<<<<< HEAD
+=======
+  .pr-\[70px\] {
+    padding-right: 70px;
+  }
+  .pb-\[10px\] {
+    padding-bottom: 10px;
+  }
+>>>>>>> 2a88b48 (add)
   .pb-\[80px\] {
     padding-bottom: 80px;
   }
@@ -361,6 +409,12 @@
   .text-\[\#686868\] {
     color: #686868;
   }
+<<<<<<< HEAD
+=======
+  .text-\[\#FFFFFF\] {
+    color: #FFFFFF;
+  }
+>>>>>>> 2a88b48 (add)
   .text-green-600 {
     color: var(--color-green-600);
   }
@@ -381,6 +435,16 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  .md\:ml-\[10px\] {
+    @media (width >= 766px) {
+      margin-left: 10px;
+    }
+  }
+  .md\:ml-\[40px\] {
+    @media (width >= 766px) {
+      margin-left: 40px;
+    }
+  }
   .md\:flex {
     @media (width >= 766px) {
       display: flex;
@@ -396,11 +460,44 @@
       height: 306px;
     }
   }
+  .md\:h-\[600px\] {
+    @media (width >= 766px) {
+      height: 600px;
+    }
+  }
+  .md\:w-\[270px\] {
+    @media (width >= 766px) {
+      width: 270px;
+    }
+  }
   .md\:w-\[344px\] {
     @media (width >= 766px) {
       width: 344px;
     }
   }
+<<<<<<< HEAD
+=======
+  .md\:flex-col {
+    @media (width >= 766px) {
+      flex-direction: column;
+    }
+  }
+  .md\:justify-center {
+    @media (width >= 766px) {
+      justify-content: center;
+    }
+  }
+  .md\:justify-start {
+    @media (width >= 766px) {
+      justify-content: flex-start;
+    }
+  }
+  .md\:gap-\[48px\] {
+    @media (width >= 766px) {
+      gap: 48px;
+    }
+  }
+>>>>>>> 2a88b48 (add)
   .md\:gap-\[500px\] {
     @media (width >= 766px) {
       gap: 500px;
@@ -421,6 +518,11 @@
       padding-left: 35px;
     }
   }
+  .md\:pl-\[290px\] {
+    @media (width >= 766px) {
+      padding-left: 290px;
+    }
+  }
   .md\:text-\[50px\] {
     @media (width >= 766px) {
       font-size: 50px;
@@ -429,6 +531,16 @@
   .xl\:mt-\[0px\] {
     @media (width >= 1440px) {
       margin-top: 0px;
+    }
+  }
+  .xl\:ml-\[\/\] {
+    @media (width >= 1440px) {
+      margin-left: /;
+    }
+  }
+  .xl\:ml-\[0px\] {
+    @media (width >= 1440px) {
+      margin-left: 0px;
     }
   }
   .xl\:flex {
@@ -446,11 +558,24 @@
       height: 306px;
     }
   }
+  .xl\:h-\[325px\] {
+    @media (width >= 1440px) {
+      height: 325px;
+    }
+  }
   .xl\:w-\[270px\] {
     @media (width >= 1440px) {
       width: 270px;
     }
   }
+<<<<<<< HEAD
+=======
+  .xl\:justify-center {
+    @media (width >= 1440px) {
+      justify-content: center;
+    }
+  }
+>>>>>>> 2a88b48 (add)
   .xl\:pt-\[130px\] {
     @media (width >= 1440px) {
       padding-top: 130px;
@@ -459,6 +584,11 @@
   .xl\:pb-\[130px\] {
     @media (width >= 1440px) {
       padding-bottom: 130px;
+    }
+  }
+  .xl\:pl-\[0px\] {
+    @media (width >= 1440px) {
+      padding-left: 0px;
     }
   }
   .xl\:pl-\[180px\] {
