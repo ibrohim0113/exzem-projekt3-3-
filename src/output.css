@@ -7,9 +7,11 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-green-600: oklch(62.7% 0.194 149.214);
     --color-white: #fff;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
+    --font-weight-bold: 700;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -166,11 +168,44 @@
   .m-\[3px\] {
     margin: 3px;
   }
+  .mt-\[3px\] {
+    margin-top: 3px;
+  }
+  .mt-\[10px\] {
+    margin-top: 10px;
+  }
+  .mt-\[13px\] {
+    margin-top: 13px;
+  }
+  .mt-\[20px\] {
+    margin-top: 20px;
+  }
   .mt-\[27px\] {
     margin-top: 27px;
   }
   .mt-\[30px\] {
     margin-top: 30px;
+  }
+  .mt-\[35px\] {
+    margin-top: 35px;
+  }
+  .mt-\[36px\] {
+    margin-top: 36px;
+  }
+  .mt-\[37px\] {
+    margin-top: 37px;
+  }
+  .mt-\[40px\] {
+    margin-top: 40px;
+  }
+  .mt-\[135px\] {
+    margin-top: 135px;
+  }
+  .mb-\[10px\] {
+    margin-bottom: 10px;
+  }
+  .ml-\[30px\] {
+    margin-left: 30px;
   }
   .flex {
     display: flex;
@@ -178,17 +213,38 @@
   .hidden {
     display: none;
   }
+  .table {
+    display: table;
+  }
   .h-\[12px\] {
     height: 12px;
   }
   .h-\[20px\] {
     height: 20px;
   }
+  .h-\[22px\] {
+    height: 22px;
+  }
   .h-\[36px\] {
     height: 36px;
   }
   .h-\[38px\] {
     height: 38px;
+  }
+  .h-\[44px\] {
+    height: 44px;
+  }
+  .h-\[48px\] {
+    height: 48px;
+  }
+  .h-\[170px\] {
+    height: 170px;
+  }
+  .h-\[206px\] {
+    height: 206px;
+  }
+  .h-\[269px\] {
+    height: 269px;
   }
   .w-\[12px\] {
     width: 12px;
@@ -199,8 +255,32 @@
   .w-\[144px\] {
     width: 144px;
   }
+  .w-\[161px\] {
+    width: 161px;
+  }
   .w-\[196px\] {
     width: 196px;
+  }
+  .w-\[220px\] {
+    width: 220px;
+  }
+  .w-\[270px\] {
+    width: 270px;
+  }
+  .w-\[344px\] {
+    width: 344px;
+  }
+  .w-\[388px\] {
+    width: 388px;
+  }
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .resize {
+    resize: both;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .justify-center {
     justify-content: center;
@@ -223,20 +303,54 @@
   .gap-\[200px\] {
     gap: 200px;
   }
+  .rounded-\[5px\] {
+    border-radius: 5px;
+  }
   .rounded-\[30px\] {
     border-radius: 30px;
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
   .bg-\[\#3BB96D\] {
     background-color: #3BB96D;
   }
+  .bg-\[\#F1F5F8\] {
+    background-color: #F1F5F8;
+  }
   .pt-\[7px\] {
     padding-top: 7px;
+  }
+  .pt-\[20px\] {
+    padding-top: 20px;
   }
   .pt-\[29px\] {
     padding-top: 29px;
   }
   .pt-\[31px\] {
     padding-top: 31px;
+  }
+  .pt-\[33px\] {
+    padding-top: 33px;
+  }
+  .pt-\[40px\] {
+    padding-top: 40px;
+  }
+  .pt-\[80px\] {
+    padding-top: 80px;
+  }
+  .pt-\[80x\] {
+    padding-top: 80x;
+  }
+  .pt-\[130px\] {
+    padding-top: 130px;
+  }
+  .pb-\[80px\] {
+    padding-bottom: 80px;
+  }
+  .pl-\[20px\] {
+    padding-left: 20px;
   }
   .pl-\[30px\] {
     padding-left: 30px;
@@ -250,11 +364,18 @@
   .text-\[18px\] {
     font-size: 18px;
   }
+  .text-\[20px\] {
+    font-size: 20px;
+  }
   .text-\[22px\] {
     font-size: 22px;
   }
   .text-\[40px\] {
     font-size: 40px;
+  }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
   }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
@@ -267,61 +388,259 @@
   .text-\[\#0D233B\] {
     color: #0D233B;
   }
+  .text-\[\#3BB96D\] {
+    color: #3BB96D;
+  }
+  .text-\[\#8D979F\] {
+    color: #8D979F;
+  }
+  .text-\[\#121c16\] {
+    color: #121c16;
+  }
+  .text-\[\#121c167e\] {
+    color: #121c167e;
+  }
   .text-\[\#686868\] {
     color: #686868;
+  }
+  .text-\[\#ff00007e\] {
+    color: #ff00007e;
+  }
+  .text-green-600 {
+    color: var(--color-green-600);
   }
   .text-white {
     color: var(--color-white);
   }
+  .line-through {
+    text-decoration-line: line-through;
+  }
+  .underline {
+    text-decoration-line: underline;
+  }
+  .shadow-md {
+    --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+  }
+  .md\:flex {
+    @media (width >= 766px) {
+      display: flex;
+    }
+  }
+  .md\:hidden {
+    @media (width >= 766px) {
+      display: none;
+    }
+  }
+  .md\:h-\[306px\] {
+    @media (width >= 766px) {
+      height: 306px;
+    }
+  }
+  .md\:w-\[344px\] {
+    @media (width >= 766px) {
+      width: 344px;
+    }
+  }
+  .md\:gap-\[100px\] {
+    @media (width >= 766px) {
+      gap: 100px;
+    }
+  }
   .md\:gap-\[500px\] {
-    @media (width >= 48rem) {
+    @media (width >= 766px) {
       gap: 500px;
     }
   }
+  .md\:pt-\[10ppx\] {
+    @media (width >= 766px) {
+      padding-top: 10ppx;
+    }
+  }
+  .md\:pt-\[10px\] {
+    @media (width >= 766px) {
+      padding-top: 10px;
+    }
+  }
+  .md\:pt-\[100px\] {
+    @media (width >= 766px) {
+      padding-top: 100px;
+    }
+  }
+  .md\:pb-\[100px\] {
+    @media (width >= 766px) {
+      padding-bottom: 100px;
+    }
+  }
   .md\:pl-\[35px\] {
-    @media (width >= 48rem) {
+    @media (width >= 766px) {
       padding-left: 35px;
     }
   }
   .md\:text-\[50px\] {
-    @media (width >= 48rem) {
+    @media (width >= 766px) {
       font-size: 50px;
     }
   }
   .xl\:mt-\[0px\] {
-    @media (width >= 80rem) {
+    @media (width >= 1440px) {
       margin-top: 0px;
     }
   }
   .xl\:flex {
-    @media (width >= 80rem) {
+    @media (width >= 1440px) {
       display: flex;
     }
   }
   .xl\:hidden {
-    @media (width >= 80rem) {
+    @media (width >= 1440px) {
       display: none;
     }
   }
+  .xl\:h-\[306px\] {
+    @media (width >= 1440px) {
+      height: 306px;
+    }
+  }
+  .xl\:w-\[270px\] {
+    @media (width >= 1440px) {
+      width: 270px;
+    }
+  }
+  .xl\:gap-\[360px\] {
+    @media (width >= 1440px) {
+      gap: 360px;
+    }
+  }
+  .xl\:pt-\[130px\] {
+    @media (width >= 1440px) {
+      padding-top: 130px;
+    }
+  }
+  .xl\:pb-\[130px\] {
+    @media (width >= 1440px) {
+      padding-bottom: 130px;
+    }
+  }
+  .xl\:pl-\[180px\] {
+    @media (width >= 1440px) {
+      padding-left: 180px;
+    }
+  }
   .xl\:pl-\[190px\] {
-    @media (width >= 80rem) {
+    @media (width >= 1440px) {
       padding-left: 190px;
     }
   }
   .xl\:pl-\[200px\] {
-    @media (width >= 80rem) {
+    @media (width >= 1440px) {
       padding-left: 200px;
     }
   }
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
 }
+@property --tw-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-inset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-ring-inset {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-offset-width {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --tw-ring-offset-color {
+  syntax: "*";
+  inherits: false;
+  initial-value: #fff;
+}
+@property --tw-ring-offset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
+      --tw-border-style: solid;
       --tw-font-weight: initial;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-color: initial;
+      --tw-shadow-alpha: 100%;
+      --tw-inset-shadow: 0 0 #0000;
+      --tw-inset-shadow-color: initial;
+      --tw-inset-shadow-alpha: 100%;
+      --tw-ring-color: initial;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-inset-ring-color: initial;
+      --tw-inset-ring-shadow: 0 0 #0000;
+      --tw-ring-inset: initial;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-outline-style: solid;
     }
   }
 }
