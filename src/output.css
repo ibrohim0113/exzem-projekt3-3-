@@ -168,17 +168,8 @@
   .m-\[3px\] {
     margin: 3px;
   }
-  .mt-\[3px\] {
-    margin-top: 3px;
-  }
   .mt-\[10px\] {
     margin-top: 10px;
-  }
-  .mt-\[13px\] {
-    margin-top: 13px;
-  }
-  .mt-\[20px\] {
-    margin-top: 20px;
   }
   .mt-\[27px\] {
     margin-top: 27px;
@@ -186,20 +177,11 @@
   .mt-\[30px\] {
     margin-top: 30px;
   }
-  .mt-\[35px\] {
-    margin-top: 35px;
-  }
-  .mt-\[36px\] {
-    margin-top: 36px;
-  }
   .mt-\[37px\] {
     margin-top: 37px;
   }
   .mt-\[40px\] {
     margin-top: 40px;
-  }
-  .mt-\[135px\] {
-    margin-top: 135px;
   }
   .mb-\[10px\] {
     margin-bottom: 10px;
@@ -222,9 +204,6 @@
   .h-\[20px\] {
     height: 20px;
   }
-  .h-\[22px\] {
-    height: 22px;
-  }
   .h-\[36px\] {
     height: 36px;
   }
@@ -233,9 +212,6 @@
   }
   .h-\[44px\] {
     height: 44px;
-  }
-  .h-\[48px\] {
-    height: 48px;
   }
   .h-\[170px\] {
     height: 170px;
@@ -255,14 +231,8 @@
   .w-\[144px\] {
     width: 144px;
   }
-  .w-\[161px\] {
-    width: 161px;
-  }
   .w-\[196px\] {
     width: 196px;
-  }
-  .w-\[220px\] {
-    width: 220px;
   }
   .w-\[270px\] {
     width: 270px;
@@ -340,12 +310,6 @@
   .pt-\[80px\] {
     padding-top: 80px;
   }
-  .pt-\[80x\] {
-    padding-top: 80x;
-  }
-  .pt-\[130px\] {
-    padding-top: 130px;
-  }
   .pb-\[80px\] {
     padding-bottom: 80px;
   }
@@ -394,17 +358,8 @@
   .text-\[\#8D979F\] {
     color: #8D979F;
   }
-  .text-\[\#121c16\] {
-    color: #121c16;
-  }
-  .text-\[\#121c167e\] {
-    color: #121c167e;
-  }
   .text-\[\#686868\] {
     color: #686868;
-  }
-  .text-\[\#ff00007e\] {
-    color: #ff00007e;
   }
   .text-green-600 {
     color: var(--color-green-600);
@@ -446,24 +401,9 @@
       width: 344px;
     }
   }
-  .md\:gap-\[100px\] {
-    @media (width >= 766px) {
-      gap: 100px;
-    }
-  }
   .md\:gap-\[500px\] {
     @media (width >= 766px) {
       gap: 500px;
-    }
-  }
-  .md\:pt-\[10ppx\] {
-    @media (width >= 766px) {
-      padding-top: 10ppx;
-    }
-  }
-  .md\:pt-\[10px\] {
-    @media (width >= 766px) {
-      padding-top: 10px;
     }
   }
   .md\:pt-\[100px\] {
@@ -509,11 +449,6 @@
   .xl\:w-\[270px\] {
     @media (width >= 1440px) {
       width: 270px;
-    }
-  }
-  .xl\:gap-\[360px\] {
-    @media (width >= 1440px) {
-      gap: 360px;
     }
   }
   .xl\:pt-\[130px\] {
